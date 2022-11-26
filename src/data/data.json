@@ -1,8 +1,7 @@
 [
     {
         "id" : 1,
-        "company":"Deerwalk",
-        "logo":"",
+        "company":"Cotiviti",
         "new": true,
         "featured" :true,
         "position" :"Senior Frontend Developer",
@@ -11,13 +10,16 @@
         "postedAt":"1d ago",
         "contract" :"Full Time",
         "location":"kathmadu Only",
-        "languages":["HTML","CSS","JavaScript"],
-        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhoW9sTxl4GuYRnnlxmB0SakvWNkCAMGzD5P0LivIVTxXp5KSUtLNLQteYEByUaktBQxw&usqp=CAU"
+        "languages":[{
+            "skill":  "React"},
+            {"skill": "Bootstrap"},
+            {"skill":  "CSS"}],
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhoW9sTxl4GuYRnnlxmB0SakvWNkCAMGzD5P0LivIVTxXp5KSUtLNLQteYEByUaktBQxw&usqp=CAU",
+        "des":""
     },
     {
         "id" : 2,
         "company":"Deerwalk",
-        "logo":"",
         "new": true,
         "featured" :true,
         "position" :"Senior Frontend Developer",
@@ -34,26 +36,25 @@
         "img":"http://deerwalk.com/images/deerwalk-logo.jpg"
     },
     {
-        "id" : 1,
-        "company":"Deerwalk",
-        "logo":"",
+        "id" : 3,
+        "company":"Infinity",
         "new": true,
         "featured" :true,
-        "position" :"Senior Frontend Developer",
+        "position" :"Senior Backend Developer",
         "role":"Frontend",
         "level":"Senior",
         "postedAt":"1d ago",
         "contract" :"Full Time",
         "location":"kathmadu Only",
         "languages":[{
-            "skill":  "HTML"},
-            {"skill": "CSS"},
-            {"skill":  "JavaScript"}],
+            "skill":  "Express.js"},
+            {"skill": "Node.js"},
+            {"skill":  "MangoDB"}],
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScpVlPSMYZwr1ZsDlueq1nVcwDYjM4MyQcGg&usqp=CAU"
     },
     {
-        "id" : 1,
-        "company":"Deerwalk",
+        "id" : 4,
+        "company":"Kishora",
         "logo":"",
         "new": true,
         "featured" :true,
@@ -70,8 +71,8 @@
             "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm76XoSy0vee4MvSerm6U5U_5W6e7TT-2J-g&usqp=CAU"
     },
     {
-        "id" : 1,
-        "company":"Deerwalk",
+        "id" : 5,
+        "company":"Leapfrog",
         "logo":"",
         "new": true,
         "featured" :true,
@@ -88,8 +89,8 @@
             "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm76XoSy0vee4MvSerm6U5U_5W6e7TT-2J-g&usqp=CAU"
     },
     {
-        "id" : 1,
-        "company":"Deerwalk",
+        "id" : 6,
+        "company":"Info-tech",
         "logo":"",
         "new": true,
         "featured" :true,
@@ -106,8 +107,8 @@
           "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_wNk1Dd1fZHB4lN5ywlG8rc3KW2yJLuk7JQ&usqp=CAU"
     },
     {
-        "id" : 1,
-        "company":"Deerwalk",
+        "id" : 7,
+        "company":"Lenovo",
         "logo":"",
         "new": true,
         "featured" :true,
@@ -117,12 +118,15 @@
         "postedAt":"1d ago",
         "contract" :"Full Time",
         "location":"kathmadu Only",
-        "languages":["HTML","CSS","JavaScript"],
+        "languages":[{
+            "skill":  "HTML"},
+            {"skill": "CSS"},
+            {"skill":  "JavaScript"}],
         "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoHMpTphqAv7FvzvgeZLf5yFpnOSOhOg8kBw&usqp=CAU"
     },
     {
-        "id" : 1,
-        "company":"Deerwalk",
+        "id" : 8,
+        "company":"Kist",
         "logo":"",
         "new": true,
         "featured" :true,
@@ -132,7 +136,10 @@
         "postedAt":"1d ago",
         "contract" :"Full Time",
         "location":"kathmadu Only",
-        "languages":["HTML","CSS","JavaScript"],
+        "languages":[{
+            "skill":  "HTML"},
+            {"skill": "CSS"},
+            {"skill":  "JavaScript"}],
         "img":"https://www.cotiviti.com/hubfs/caspian/caspianArtboard.png?noresize"
     }
 

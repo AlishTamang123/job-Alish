@@ -6,7 +6,7 @@ export default function hero() {
   return (
     <>
     
-    <div className='top mt-8'>
+    <div className='top mt-8' style={{"margin-top":"4%"}} >
         <img src={image} alt=""/>    
         </div>
          <div className="container mt-3 bottom">

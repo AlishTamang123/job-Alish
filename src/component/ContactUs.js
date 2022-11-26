@@ -5,7 +5,7 @@ export const ContactUs = () => {
     <>
     <div className='container d-flex justify-content-between ' style={{"margin-top":"7%"}}>
         <div className="mapSection" style={{width:'20%'}}><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.5186930590735!2d85.31902561501522!3d27.701267082794544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19688077a1ff%3A0x3ea9b1c08b4234dc!2sMind%20Risers%20Consortium%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1667109256320!5m2!1sen!2snp" width="600" height="450" style={{border:"0"}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-        <div className="messageSection" style={{width:'40%'}}>
+        <div className="messageSection" style={{width:'50%'}}>
         {/* <!--Section: Contact v.2--> */}
 <section class="mb-4">
 
@@ -17,11 +17,11 @@ export const ContactUs = () => {
 
 
         {/* <!--Grid column--> */}
-        <div class="col-md-9 mb-md-0 mb-5 pl-6">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+        <div class="col-md-9 mb-md-0 mb-5 pl-6" >
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST" >
 
                 {/* <!--Grid row--> */}
-                <div class="row">
+                <div class="row" style={{"margin-left":"9%" , "margin-bottom":"2%"}}>
 
                     {/* <!--Grid column--> */}
                     <div class="col-md-6">
@@ -33,7 +33,7 @@ export const ContactUs = () => {
                     {/* <!--Grid column--> */}
 
                     {/* <!--Grid column--> */}
-                    <div class="col-md-6">
+                    <div class="col-md-6" >
                         <div class="md-form mb-0">
                             <input type="text" id="email" name="email" class="form-control"/>
                             <label for="email" class="">Your email</label>
@@ -45,7 +45,7 @@ export const ContactUs = () => {
                 {/* <!--Grid row--> */}
 
                 {/* <!--Grid row--> */}
-                <div class="row">
+                <div class="row" style={{"margin-left":"9%" , "margin-bottom":"2%"}}>
                     <div class="col-md-12">
                         <div class="md-form mb-0">
                             <input type="text" id="subject" name="subject" class="form-control"/>
@@ -56,7 +56,7 @@ export const ContactUs = () => {
                 {/* <!--Grid row--> */}
 
                 {/* <!--Grid row--> */}
-                <div class="row">
+                <div class="row" style={{"margin-left":"9%" , "margin-bottom":"2%"}}>
 
                     {/* <!--Grid column--> */}
                     <div class="col-md-12">
